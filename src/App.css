@@ -1,21 +1,27 @@
 .calcBody {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 60%;
   height: 80vh;
   border: solid 3px black;
   font-size: 2rem;
-  grid-template-areas: 
+  grid-template-areas:
     "calcFirtsRow calcFirtsRow calcFirtsRow calcFirtsRow"
     "AC plusMinus reminder div"
     "seven eigth nine mult"
     "four five six sub"
     "one two trhee plus"
-    "cero cero cero equal"; 
+    "cero cero cero equal";
 }
 
-.calcFirtsRow { grid-area: calcFirtsRow; }
+.calcFirtsRow {
+  grid-area: calcFirtsRow;
+  display: flex;
+  background-color: gray;
+  justify-content: flex-end;
+  align-items: center;
+}
 .AC { grid-area: AC; }
 .plusMinus { grid-area: plusMinus; }
 .reminder { grid-area: reminder; }
@@ -35,13 +41,6 @@
 .cero { grid-area: cero; }
 .equal { grid-area: equal; }
 
-.calcFirtsRow {
-  display: flex;
-  background-color: gray;
-  justify-content: flex-end;
-  align-items: center;
-}
-
 button {
   border: solid 1px gray;
   font-size: 1.5rem;
@@ -50,7 +49,6 @@ button {
 .calcFirtsRow p {
   padding: 10px;
 }
-
 
 .leftCalc {
   background-color: rgb(180, 180, 180);
