@@ -1,39 +1,61 @@
-.App {
-  text-align: center;
+.calcBody {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 60%;
+  height: 80vh;
+  border: solid 3px black;
+  font-size: 2rem;
+  grid-template-areas: 
+    "calcFirtsRow calcFirtsRow calcFirtsRow calcFirtsRow"
+    "AC plusMinus reminder div"
+    "seven eigth nine mult"
+    "four five six sub"
+    "one two trhee plus"
+    "cero cero cero equal"; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.calcFirtsRow { grid-area: calcFirtsRow; }
+.AC { grid-area: AC; }
+.plusMinus { grid-area: plusMinus; }
+.reminder { grid-area: reminder; }
+.seven { grid-area: seven; }
+.eigth { grid-area: eigth; }
+.nine { grid-area: nine; }
+.four { grid-area: four; }
+.five { grid-area: five; }
+.six { grid-area: six; }
+.sub { grid-area: sub; }
+.div { grid-area: div; }
+.mult { grid-area: mult; }
+.one { grid-area: one; }
+.two { grid-area: two; }
+.trhee { grid-area: trhee; }
+.plus { grid-area: plus; }
+.cero { grid-area: cero; }
+.equal { grid-area: equal; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calcFirtsRow {
   display: flex;
-  flex-direction: column;
+  background-color: gray;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  border: solid 1px gray;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.calcFirtsRow p {
+  padding: 10px;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+
+.leftCalc {
+  background-color: rgb(180, 180, 180);
+}
+
+.rightCalc {
+  background-color: rgb(214, 139, 0);
 }
