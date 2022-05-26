@@ -41,7 +41,7 @@
 .plus { grid-area: plus; }
 .cero { grid-area: cero; }
 .equal { grid-area: equal; }
-.dot  {grid-area: dot; }
+.dot { grid-area: dot; }
 
 button {
   border: solid 1px gray;
