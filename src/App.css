@@ -9,9 +9,9 @@
   grid-template-areas:
     "calcFirtsRow calcFirtsRow calcFirtsRow calcFirtsRow"
     "AC plusMinus reminder div"
-    "seven eigth nine mult"
+    "seven eight nine mult"
     "four five six sub"
-    "one two trhee plus"
+    "one two three plus"
     "cero cero cero equal";
 }
 
@@ -26,7 +26,7 @@
 .plusMinus { grid-area: plusMinus; }
 .reminder { grid-area: reminder; }
 .seven { grid-area: seven; }
-.eigth { grid-area: eigth; }
+.eight { grid-area: eight; }
 .nine { grid-area: nine; }
 .four { grid-area: four; }
 .five { grid-area: five; }
@@ -36,7 +36,7 @@
 .mult { grid-area: mult; }
 .one { grid-area: one; }
 .two { grid-area: two; }
-.trhee { grid-area: trhee; }
+.three { grid-area: three; }
 .plus { grid-area: plus; }
 .cero { grid-area: cero; }
 .equal { grid-area: equal; }
