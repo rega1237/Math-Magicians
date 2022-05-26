@@ -44,6 +44,7 @@ export default class Calculator extends React.PureComponent {
         <button type="button" className="leftCalc eight" onClick={this.calc}>8</button>
         <button type="button" className="leftCalc nine" onClick={this.calc}>9</button>
         <button type="button" className="leftCalc cero" onClick={this.calc}>0</button>
+        <button type="button" className="leftCalc dot" onClick={this.calc}>.</button>
         <button type="button" className="leftCalc AC" onClick={this.calc}>AC</button>
         <button type="button" className="leftCalc plusMinus" onClick={this.calc}>+/-</button>
         <button type="button" className="leftCalc reminder" onClick={this.calc}>%</button>
