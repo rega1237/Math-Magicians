@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
-export default function Calculator() {
+export default function CalculatorComp() {
   const [input, setValue] = useState(0);
 
   const calc = (e) => {
