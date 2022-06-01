@@ -1,9 +1,20 @@
+.calc-page {
+  display: flex;
+  gap: 2rem;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.calc-page h2 {
+  font-size: 2rem;
+}
+
 .calcBody {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 60%;
-  height: 80vh;
+  width: 50%;
+  height: 75vh;
   border: solid 3px black;
   font-size: 2rem;
   grid-template-areas:

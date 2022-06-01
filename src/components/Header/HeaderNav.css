@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  background-color: #044599;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.header h2 {
+  color: white;
+  font-size: 3rem;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header li {
+  padding: 5px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: #95bcf0;
+  padding-bottom: 0.25rem;
+  border-bottom: 4px solid #95bcf0;
+}
+
+.middle {
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}
