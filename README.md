@@ -18,6 +18,12 @@
 - NPM
 - Web server
 
+## Live Demo
+
+- Heroku: https://math-mag-react.herokuapp.com/
+- Netlify: https://6298d7c0130dd1405ca22ecd--keen-belekoy-fc163b.netlify.app/
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
